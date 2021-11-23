@@ -1,0 +1,9 @@
+uws/ac/uk/mylocation/MainActivity.java
+ uws.ac.uk.mylocation.MainActivity
+ uws.ac.uk.mylocation.MainActivity$1
+uws/ac/uk/mylocation/BuildConfig.java
+ uws.ac.uk.mylocation.BuildConfig
+uws/ac/uk/mylocation/TrackGPS.java
+ uws.ac.uk.mylocation.TrackGPS
+ uws.ac.uk.mylocation.TrackGPS$1
+ uws.ac.uk.mylocation.TrackGPS$2
