@@ -1,0 +1,54 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="uws.ac.uk.mylocation" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="19"
+6-->C:\Users\Scott\Desktop\MScAdvancedComputing\MNSA-COMP11062\labs\lab6\app\src\main\AndroidManifest.xml
+7        android:targetSdkVersion="31" />
+7-->C:\Users\Scott\Desktop\MScAdvancedComputing\MNSA-COMP11062\labs\lab6\app\src\main\AndroidManifest.xml
+8
+9    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+9-->C:\Users\Scott\Desktop\MScAdvancedComputing\MNSA-COMP11062\labs\lab6\app\src\main\AndroidManifest.xml:5:5-80
+9-->C:\Users\Scott\Desktop\MScAdvancedComputing\MNSA-COMP11062\labs\lab6\app\src\main\AndroidManifest.xml:5:22-78
+10    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+10-->C:\Users\Scott\Desktop\MScAdvancedComputing\MNSA-COMP11062\labs\lab6\app\src\main\AndroidManifest.xml:6:5-78
+10-->C:\Users\Scott\Desktop\MScAdvancedComputing\MNSA-COMP11062\labs\lab6\app\src\main\AndroidManifest.xml:6:22-76
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Scott\Desktop\MScAdvancedComputing\MNSA-COMP11062\labs\lab6\app\src\main\AndroidManifest.xml:7:5-66
+11-->C:\Users\Scott\Desktop\MScAdvancedComputing\MNSA-COMP11062\labs\lab6\app\src\main\AndroidManifest.xml:7:22-64
+12
+13    <application
+13-->C:\Users\Scott\Desktop\MScAdvancedComputing\MNSA-COMP11062\labs\lab6\app\src\main\AndroidManifest.xml:9:5-25:19
+14        android:allowBackup="true"
+14-->C:\Users\Scott\Desktop\MScAdvancedComputing\MNSA-COMP11062\labs\lab6\app\src\main\AndroidManifest.xml:10:9-35
+15        android:icon="@mipmap/ic_launcher"
+15-->C:\Users\Scott\Desktop\MScAdvancedComputing\MNSA-COMP11062\labs\lab6\app\src\main\AndroidManifest.xml:11:9-43
+16        android:label="@string/app_name"
+16-->C:\Users\Scott\Desktop\MScAdvancedComputing\MNSA-COMP11062\labs\lab6\app\src\main\AndroidManifest.xml:12:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->C:\Users\Scott\Desktop\MScAdvancedComputing\MNSA-COMP11062\labs\lab6\app\src\main\AndroidManifest.xml:13:9-54
+18        android:supportsRtl="true"
+18-->C:\Users\Scott\Desktop\MScAdvancedComputing\MNSA-COMP11062\labs\lab6\app\src\main\AndroidManifest.xml:14:9-35
+19        android:theme="@style/Theme.MyLocation" >
+19-->C:\Users\Scott\Desktop\MScAdvancedComputing\MNSA-COMP11062\labs\lab6\app\src\main\AndroidManifest.xml:15:9-48
+20        <activity
+20-->C:\Users\Scott\Desktop\MScAdvancedComputing\MNSA-COMP11062\labs\lab6\app\src\main\AndroidManifest.xml:16:9-24:20
+21            android:name="uws.ac.uk.mylocation.MainActivity"
+21-->C:\Users\Scott\Desktop\MScAdvancedComputing\MNSA-COMP11062\labs\lab6\app\src\main\AndroidManifest.xml:17:13-41
+22            android:exported="true" >
+22-->C:\Users\Scott\Desktop\MScAdvancedComputing\MNSA-COMP11062\labs\lab6\app\src\main\AndroidManifest.xml:18:13-36
+23            <intent-filter>
+23-->C:\Users\Scott\Desktop\MScAdvancedComputing\MNSA-COMP11062\labs\lab6\app\src\main\AndroidManifest.xml:19:13-23:29
+24                <action android:name="android.intent.action.MAIN" />
+24-->C:\Users\Scott\Desktop\MScAdvancedComputing\MNSA-COMP11062\labs\lab6\app\src\main\AndroidManifest.xml:20:17-69
+24-->C:\Users\Scott\Desktop\MScAdvancedComputing\MNSA-COMP11062\labs\lab6\app\src\main\AndroidManifest.xml:20:25-66
+25
+26                <category android:name="android.intent.category.LAUNCHER" />
+26-->C:\Users\Scott\Desktop\MScAdvancedComputing\MNSA-COMP11062\labs\lab6\app\src\main\AndroidManifest.xml:22:17-77
+26-->C:\Users\Scott\Desktop\MScAdvancedComputing\MNSA-COMP11062\labs\lab6\app\src\main\AndroidManifest.xml:22:27-74
+27            </intent-filter>
+28        </activity>
+29    </application>
+30
+31</manifest>
